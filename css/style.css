@@ -117,3 +117,11 @@ a {
     margin-right: 15px;
     padding-right: 15px;
   }
+@media (max-width: 900px) {
+  html {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+  }
+}
