@@ -117,3 +117,31 @@ a {
     margin-right: 15px;
     padding-right: 15px;
   }
+
+
+@media (max-width: 900px) { 
+
+  .page{
+    max-width: 65%;
+  }
+  .nav {
+  
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  width: 100%;
+  margin-right: 5%;
+      }
+  .nav li {
+    border-right: 1px solid #900;
+    display: flex;
+   
+      }
+      
+       .main {
+        margin: 0;
+        padding: 0 20px;
+        width: auto;
+        float: none;
+      }  
+}
