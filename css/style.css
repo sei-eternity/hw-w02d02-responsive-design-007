@@ -117,3 +117,28 @@ a {
     margin-right: 15px;
     padding-right: 15px;
   }
+
+  @media (max-width: 900px) {
+
+  .main {
+    float: none;
+    padding: 0 25px;
+  }
+
+  .nav {
+    float: none;
+    width: auto;
+    margin: 0;
+    overflow: auto;
+  }
+
+  .nav li {
+    display: inline-block;
+    border-right: 2px solid #900;
+    float: left;
+  }
+}
+@media (max-width: 400px) {
+
+
+}
