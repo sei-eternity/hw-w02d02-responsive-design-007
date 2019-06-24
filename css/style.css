@@ -29,6 +29,7 @@ a {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin: 0 auto;
+  max-width: 900px;
   overflow: hidden;
 }
 
@@ -42,6 +43,7 @@ a {
 }
 
   .header img {
+    max-width: 380px;
     width: 30%;
   }
 
@@ -116,4 +118,29 @@ a {
     display: inline;
     margin-right: 15px;
     padding-right: 15px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .nav {
+      float: none;
+      overflow: auto;
+      width: auto;
+      margin: 0;
+      
+    }
+  
+    .nav li {
+      border-right: 1px solid #900;
+      float: left;
+      display: inline-block;
+      
+    }
+  
+    .main {
+      margin: 0;
+      padding: 0 20px;
+      width: auto;
+      float: none;
+     
+    }
   }
