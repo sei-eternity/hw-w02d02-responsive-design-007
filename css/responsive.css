@@ -1,0 +1,71 @@
+@media only screen and (min-width: 1024px){
+    .body{
+        margin: 0 auto;
+    }
+    .nav{
+        float: left;
+        width: 25%;
+        display: unset;
+        width: 30%;
+    }
+    .nav li {
+        border-bottom: 1px solid #900;
+    }
+    .nav a {
+        
+        display: block;
+        padding:  10px 20px;
+        font-size: 1.2em;
+    }
+    .main{
+        float: left;
+        margin:  0 10px  0 30px;
+        /* padding: 0 5px 0 5px; */
+        width: 55%;
+        font-size: 1em;
+    }
+    .footer li{
+        font-size:1.2em ;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* 
+@media only screen and (min-width: 600px) { 
+    .nav{
+        display: flex;
+        width: 100%;
+        font-size: 2em;
+        background-color: blueviolet;
+    }
+    .nav li a {
+      width: 100px;
+      padding: 10px 70px 10px 40px;
+      border-right:black solid 2px;
+     
+    }
+    .main {
+        margin: 0 auto;
+        width: 90%;
+        padding: 25px;
+        font-size: 2.5em;
+    }
+    .main .left {
+        padding-right: 20px;
+    }   
+} 
+
+@media screen and (min-width:1024px){
+.body {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+} */
